@@ -24,7 +24,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/url-shortener-api.git
+git clone https://github.com/paulzpranay97/url_shortend.git
 cd url-shortener-api
 Install dependencies:
 
@@ -35,7 +35,7 @@ Create a .env file in the root directory with the following contents:
 
 env
 Copy code
-JWT_SECRET=your_jwt_secret
+
 MONGO_URI=your_mongodb_connection_string
 Start the server:
 
@@ -53,9 +53,9 @@ Request Body:
 json
 Copy code
 {
-  "name": "John Doe",
-  "email": "john.doe@example.com",
-  "password": "yourpassword"
+  
+  "username": "john.doe@example.com",
+  "pass": "yourpassword"
 }
 Response:
 json
@@ -70,8 +70,8 @@ Request Body:
 json
 Copy code
 {
-  "email": "john.doe@example.com",
-  "password": "yourpassword"
+  "username": "john.doe@example.com",
+  "pass": "yourpassword"
 }
 Response:
 json
